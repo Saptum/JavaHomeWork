@@ -11,5 +11,15 @@ public class Test {
         fileWriter.close();
 
         System.out.println("Программа работает успешно!");
+        System.out.println("-----------------------------");
+        int a = 5;
+        int b = 0;
+        try {
+            int c = a / b;
+        } catch (ArithmeticException e) {
+            System.out.println("Делить на нуль - нельзя!");
+        }
+        System.out.println("Программа работает успешно!");
     }
 }
+
