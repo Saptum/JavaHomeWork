@@ -5,8 +5,8 @@ import java.io.FileNotFoundException;
 
 public class App {
     public static void main(String[] args) throws Exception {
-       Throwable t = new Exception();
-       throw t;
+     Object ref = "Hello!";
+     char c = ref.charAt(0);
     }
 
 }
