@@ -1,13 +1,9 @@
 package homework_6;
 
 public class App {
-    public static void main(String[] args) throws Throwable {
-        try {
-            Throwable t = new Exception();
-            throw t;
-        } catch (Exception e) {
-            System.out.println("Перехвачено!");
-        }
+    public static void main(String[] args) {
+        // тут все компилируется, Demo.test хотел Parent и мы дали ему подтип - Child
+        Demo.test(new Child());
     }
 }
 
