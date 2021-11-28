@@ -2,7 +2,6 @@ package homework_6;
 
 public class TryCatch {
 
-
     public static void main(String[] args) {
         int catNumber;
         int zero;
