@@ -4,10 +4,12 @@ import java.io.EOFException;
 import java.io.FileNotFoundException;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-     Object ref = "Hello!";
-     char c = ref.charAt(0);
-    }
+public static void fo(Throwable t) throws Exception{
+    throw t;
+}
 
+    public static void f1(Object ref) {
+        char c = ref.charAt(0);
+    }
 }
 
