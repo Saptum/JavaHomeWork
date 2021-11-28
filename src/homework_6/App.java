@@ -1,7 +1,7 @@
 package homework_6;
 
 public class App {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Throwable {
         try {
             Throwable t = new Exception();
             throw t;
